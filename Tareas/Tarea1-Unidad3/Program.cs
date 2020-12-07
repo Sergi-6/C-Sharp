@@ -6,10 +6,9 @@ namespace Tarea1_Unidad3
     {
         static void Main(string[] args)
         {
-          
+        Console.WriteLine("");  
         Console.WriteLine("Equipo de Futbol Fichas FC");
         Console.WriteLine("__________________________");
-        Console.WriteLine("");
         Console.WriteLine("");
         Console.WriteLine("Direccion Tecnica");
         Console.WriteLine("=================");
@@ -27,6 +26,19 @@ namespace Tarea1_Unidad3
         Console.WriteLine("Telefono: " + dt.Telefono);
         Console.WriteLine("Puesto: " + dt.Puesto);
         dt.PerfilDT();
+        Console.WriteLine("");
+
+        DireccionTecnica dt1 = new DireccionTecnica();
+        dt1.Nombre = "Camilo Martinez";
+        dt1.Edad = 28;
+        dt1.Apodo = "Camal";
+        dt1.Telefono = "3298-4522";
+        dt1.Puesto = "Asistente Tecnico";
+        Console.WriteLine("Nombre: " + dt1.Nombre);
+        Console.WriteLine("Edad: " + dt1.Edad);
+        Console.WriteLine("Apodo: " + dt1.Apodo);
+        Console.WriteLine("Telefono: " + dt1.Telefono);
+        Console.WriteLine("Puesto: " + dt1.Puesto);
         Console.WriteLine("");
 
 
@@ -91,6 +103,7 @@ namespace Tarea1_Unidad3
         Console.WriteLine("Directivos");
         Console.WriteLine("=========");
         Console.WriteLine("");
+
         Directivo d = new Directivo();
         d.Nombre = "Cristian Chavez";
         d.Cargo = "Presidente";
@@ -101,6 +114,13 @@ namespace Tarea1_Unidad3
         Console.WriteLine("");
 
         Directivo d1 = new Directivo();
+        d1.Nombre = "David Lopez";
+        d1.Cargo = "Vice Presidente";
+        d1.Telefono = "3387-5321";
+        Console.WriteLine("Nombre: " + d1.Nombre);
+        Console.WriteLine("Cargo: " + d1.Cargo);
+        Console.WriteLine("Telefono: " + d1.Telefono);
+        Console.WriteLine("");
 
 
 

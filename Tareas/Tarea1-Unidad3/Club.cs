@@ -13,7 +13,7 @@ public class Club
     {
         Console.WriteLine("El club Fichas FC fue fundado en el año 2018, en la ciudad de El Progreso.");
         Console.WriteLine("Su fundador, director tecnico, y dueno del club es el ex jugador del CD Faz de El Salvador, Cristian Chavez.");
-        Console.WriteLine("Inicio como equipo de Liga Intermedia y actualmente compite el la Liga Mayor de su cuidad.");
+        Console.WriteLine("Inicio como equipo de Liga Intermedia y actualmente compite en la Liga Mayor de su cuidad.");
     }
     private void SalondelaFama() // -> Encapsulamiento
     {
